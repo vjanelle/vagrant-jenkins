@@ -14,6 +14,7 @@ $plugins = [
   'openid',
   'role-strategy',
   'job-dsl',
+  'jobConfigHistory',
 ]
 
 jenkins::plugin { $plugins:
