@@ -16,6 +16,7 @@ $plugins = [
   'job-dsl',
   'jobConfigHistory',
   'build-with-parameters',
+  'downstream-ext',
 ]
 
 jenkins::plugin { $plugins:
