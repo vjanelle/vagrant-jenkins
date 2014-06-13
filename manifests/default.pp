@@ -15,6 +15,7 @@ $plugins = [
   'role-strategy',
   'job-dsl',
   'jobConfigHistory',
+  'build-with-parameters',
 ]
 
 jenkins::plugin { $plugins:
