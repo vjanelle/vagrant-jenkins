@@ -1,0 +1,5 @@
+mod 'rtyler/jenkins'
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/apt'
+mod 'puppetlabs/java'
+mod 'darin/zypprepo'
