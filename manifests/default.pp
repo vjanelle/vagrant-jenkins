@@ -13,8 +13,8 @@ $plugins = [
   'matrix-auth',
   'openid',
   'role-strategy',
+  'job-dsl',
 ]
 
 jenkins::plugin { $plugins:
-  ensure => installed,
 }
