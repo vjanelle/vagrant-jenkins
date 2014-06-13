@@ -17,6 +17,10 @@ $plugins = [
   'jobConfigHistory',
   'build-with-parameters',
   'downstream-ext',
+  'ghprb',
+  'Parameterized-Remote-Trigger',
+  'parameterized-trigger',
+  'pry'
 ]
 
 jenkins::plugin { $plugins:
