@@ -20,7 +20,8 @@ $plugins = [
   'ghprb',
   'Parameterized-Remote-Trigger',
   'parameterized-trigger',
-  'pry'
+  'pry',
+  'audit-trail',
 ]
 
 jenkins::plugin { $plugins:
